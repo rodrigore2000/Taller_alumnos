@@ -1,5 +1,8 @@
 // ================== SOLO AGREGAR (VERSIÓN BÁSICA) ==================
 
+document.getElementById("anio").textContent =
+    new Date().getFullYear();
+
 function agregar() {
 
     // 1. TOMAR DATOS DEL FORMULARIO
