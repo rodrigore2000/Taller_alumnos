@@ -1,8 +1,8 @@
 // ================== SOLO AGREGAR (VERSIÓN BÁSICA) ==================
 
+document.oddEventListener("DOMContentLoaded",function()|
 document.getElementById("anio").textContent =
-    new Date().getFullYear();
-
+    new Date().getFullYear();|);
 function agregar() {
 
     // 1. TOMAR DATOS DEL FORMULARIO
